@@ -1,0 +1,138 @@
+:root {
+  --silver: #e5ecf2;
+  --snow: #f2f7fd;
+  --orange: #fecfb3;
+  --navy: #101d42;
+  --grey: #a2a9b9;
+  --light-grey: #dfe9f1;
+  
+}
+
+
+
+
+
+.App {
+  display:flex;
+  flex-direction:column;
+ align-items:center;
+ background: var(--silver);
+ font-family: 'Open Sans', sans-serif;
+
+  height:100vh;
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow:  2px 2px 4px #c9cdd2,
+  -2px -2px 4px #ffffff;
+
+ 
+
+  
+  
+  
+}
+.coinmain{
+  overflow:scroll;
+  scroll-behavior: smooth;
+  padding:10px;
+  
+  box-shadow: 20px 20px 50px lightblue,  -30px -30px 60px #ffffff;
+  border-radius:10px;
+
+
+}
+.coincontainer{
+  
+  
+  text-align:center;
+
+
+
+}
+
+.coinsearch{
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  padding-bottom:40px;
+  position: relative;
+}
+
+.coinbar{
+  
+  border-radius:7px;
+ padding:7px 7px;
+ 
+  
+  width:300px;
+  margin-bottom:10px;
+ 
+  box-shadow:  2px 2px 4px #c9cdd2,
+   -2px -2px 4px #ffffff;
+  border-bottom: 2px solid var(--light-grey); 
+  
+          
+}
+.image{
+  height:20px;
+  width:20px;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.coinh1{
+  width:300px;
+  font-weight:600;
+  font-family: 'DM Sans', sans-serif;
+  
+  
+}
+.cointext{
+  outline-width: 0;
+  outline:none;
+  padding:10px;
+
+}
+.rectangle{
+  position: absolute;
+  height:800px;
+  width: 600px;
+  left:-700px;
+  top:50px;
+ 
+
+}
+
+.currencyh1{
+
+font-family: 'DM Sans', sans-serif;}
+
+.button1:hover,
+.button1:active,
+.button1:focus {
+ 
+  background: #d4b743;
+  color: #292826;
+  outline: 0;
+}
+
+  .button1{
+    border-radius:15px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1.15;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+   
+    color: #292826;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    text-shadow: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+  
+}
